@@ -26,7 +26,7 @@ namespace CICD.Domain
                 }
                 if (sum > 1000)
                     throw new OverflowException("Number to big. Max=1000.");
-                retrn sum;
+                return sum;
             }
             retrn 0;
         }
