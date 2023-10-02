@@ -20,6 +20,7 @@ namespace CICD.Mvc
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
+                    //Another comment line
                     webBuilder.UseStartup<Startup>();
                 });
     }
