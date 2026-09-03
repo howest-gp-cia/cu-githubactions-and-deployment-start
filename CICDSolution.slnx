@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="CICD.Domain/CICD.Domain.csproj" />
+    <Project Path="CICD.Mvc/CICD.Mvc.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="CICD.UnitTests/CICD.UnitTests.csproj" />
+  </Folder>
+</Solution>
